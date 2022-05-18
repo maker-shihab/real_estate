@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
+
 h1,
 h2,
 h3,
@@ -11,37 +12,43 @@ h6 {
   margin: 0px;
   padding: 0px;
 }
+
 li {
   list-style-type: none;
 }
+
 ul {
   margin: 0px;
   padding: 0px;
 }
+
 a {
   display: inline-block;
   text-decoration: none;
 }
+
 /* Main Css here */
 .question_area {
   background: #2a2a44;
-  height: 100vh; /* This is a Temprorary*/
   padding: 70px;
 }
+
 .question_content {
   max-width: 650px;
   margin: 0 auto;
 }
+
 .question_title {
   font-size: 22px;
   color: #9498a4;
   padding-bottom: 20px;
 }
+
 .question_checks {
   background: #2f2f48;
   padding: 20px;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .question_container {
@@ -61,12 +68,13 @@ a {
 }
 
 .question_checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
+  /* position: absolute; */
+  top: -15px;
+  left: -25px;
   font-size: 14px;
   height: 25px;
   line-height: 25px;
+  display: inline-block;
   width: 25px;
   text-align: center;
   background-color: transparent;
@@ -75,12 +83,12 @@ a {
   color: #fff;
 }
 
-.question_container:hover input ~ .question_checkmark {
+.question_container:hover input~.question_checkmark {
   background-color: #202031;
   border-color: #a13065;
 }
 
-.question_container input:checked ~ .question_checkmark {
+.question_container input:checked~.question_checkmark {
   background-color: #202031;
   border-color: #a13065;
 }
@@ -91,7 +99,7 @@ a {
   display: none;
 }
 
-.question_container input:checked ~ .question_checkmark:after {
+.question_container input:checked~.question_checkmark:after {
   display: block;
 }
 
@@ -103,10 +111,13 @@ a {
   border-radius: 50%;
   /* background: white; */
 }
+
 /* EXTRA CODE FOR CUSTOME RADION BOX */
 .question_checks {
   display: flex;
   align-items: center;
   column-gap: 30px;
   height: 30px;
+  justify-content: space-between;
+  padding: 20px 35px;
 }
