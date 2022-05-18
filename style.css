@@ -77,10 +77,12 @@ a {
 
 .question_container:hover input ~ .question_checkmark {
   background-color: #202031;
+  border-color: #a13065;
 }
 
 .question_container input:checked ~ .question_checkmark {
   background-color: #202031;
+  border-color: #a13065;
 }
 
 .question_checkmark:after {
@@ -106,4 +108,5 @@ a {
   display: flex;
   align-items: center;
   column-gap: 30px;
+  height: 30px;
 }
