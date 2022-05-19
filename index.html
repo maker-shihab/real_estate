@@ -1,182 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question</title>
+    <!-- Style Css here -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Question</title>
-  <!-- Style Css here -->
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <div class="question_area">
-    <form onsubmit="handaleSubmmit(event)">
-      <div class="question_content">
-        <!-- SINGLE QUESTION -->
-        <div class="single_question">
-          <h6 class="question_title">
-            <span id="questionNumber">1</span>
-            I go away to get good rest and a spa is always a good idea
-          </h6>
-          <div class="question_checks">
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q1_a" id="q1_a" />
-                <span class="question_checkmark">1</span>
-              </label>
+  <body>
+    <div class="question_area">
+      <form onsubmit="handaleSubmmit(event)">
+        <div class="question_content">
+          <!-- SINGLE QUESTION -->
+          <div class="single_question" id="sQ1">
+            <h6 class="question_title">
+              <span id="questionNumber">1</span>
+              I go away to get good rest and a spa is always a good idea
+            </h6>
+            <div class="question_checks">
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q1" class="q1a" id="q1_a" />
+                  <span class="question_checkmark">1</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q1" class="q1a" id="q1_b" />
+                  <span class="question_checkmark">2</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q1" class="q1a" id="q1_c" />
+                  <span class="question_checkmark">3</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q1" class="q1a" id="q1_d" />
+                  <span class="question_checkmark">4</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q1" class="q1a" id="q1_e" />
+                  <span class="question_checkmark">5</span>
+                </label>
+              </div>
             </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q1_b" id="q1_b" />
-                <span class="question_checkmark">2</span>
-              </label>
+          </div>
+          <!-- SINGLE QUESTION -->
+          <div class="single_question">
+            <h6 class="question_title">
+              <span id="questionNumber">2</span>
+              I go away to get good rest and a spa is always a good idea
+            </h6>
+            <div class="question_checks">
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q3" />
+                  <span class="question_checkmark">1</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q3" />
+                  <span class="question_checkmark">2</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q3" />
+                  <span class="question_checkmark">3</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q3" />
+                  <span class="question_checkmark">4</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q3" />
+                  <span class="question_checkmark">5</span>
+                </label>
+              </div>
             </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q1_c" id="q1_c" />
-                <span class="question_checkmark">3</span>
-              </label>
+          </div>
+          <!-- SINGLE QUESTION -->
+          <div class="single_question">
+            <h6 class="question_title">
+              <span id="questionNumber">3</span>
+              I go away to get good rest and a spa is always a good idea
+            </h6>
+            <div class="question_checks">
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q4" />
+                  <span class="question_checkmark">1</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q4" />
+                  <span class="question_checkmark">2</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q4" />
+                  <span class="question_checkmark">3</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q4" />
+                  <span class="question_checkmark">4</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q4" />
+                  <span class="question_checkmark">5</span>
+                </label>
+              </div>
             </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q1_d" id="q1_d" />
-                <span class="question_checkmark">4</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q1_e" id="q1_e" />
-                <span class="question_checkmark">5</span>
-              </label>
+          </div>
+          <!-- SINGLE QUESTION -->
+          <div class="single_question">
+            <h6 class="question_title">
+              <span id="questionNumber">4</span>
+              I go away to get good rest and a spa is always a good idea
+            </h6>
+            <div class="question_checks">
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q5" />
+                  <span class="question_checkmark">1</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q5" />
+                  <span class="question_checkmark">2</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q5" />
+                  <span class="question_checkmark">3</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q5" />
+                  <span class="question_checkmark">4</span>
+                </label>
+              </div>
+              <div class="single_question_check">
+                <label class="question_container">
+                  <input type="radio" name="q5" />
+                  <span class="question_checkmark">5</span>
+                </label>
+              </div>
             </div>
           </div>
         </div>
-        <!-- SINGLE QUESTION -->
-        <div class="single_question">
-          <h6 class="question_title">
-            <span id="questionNumber">2</span>
-            I go away to get good rest and a spa is always a good idea
-          </h6>
-          <div class="question_checks">
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q3" />
-                <span class="question_checkmark">1</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q3" />
-                <span class="question_checkmark">2</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q3" />
-                <span class="question_checkmark">3</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q3" />
-                <span class="question_checkmark">4</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q3" />
-                <span class="question_checkmark">5</span>
-              </label>
-            </div>
-          </div>
+        <div class="submit-btn">
+          <input type="submit" value="Submit!" />
         </div>
-        <!-- SINGLE QUESTION -->
-        <div class="single_question">
-          <h6 class="question_title">
-            <span id="questionNumber">3</span>
-            I go away to get good rest and a spa is always a good idea
-          </h6>
-          <div class="question_checks">
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q4" />
-                <span class="question_checkmark">1</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q4" />
-                <span class="question_checkmark">2</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q4" />
-                <span class="question_checkmark">3</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q4" />
-                <span class="question_checkmark">4</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q4" />
-                <span class="question_checkmark">5</span>
-              </label>
-            </div>
-          </div>
-        </div>
-        <!-- SINGLE QUESTION -->
-        <div class="single_question">
-          <h6 class="question_title">
-            <span id="questionNumber">4</span>
-            I go away to get good rest and a spa is always a good idea
-          </h6>
-          <div class="question_checks">
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q5" />
-                <span class="question_checkmark">1</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q5" />
-                <span class="question_checkmark">2</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q5" />
-                <span class="question_checkmark">3</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q5" />
-                <span class="question_checkmark">4</span>
-              </label>
-            </div>
-            <div class="single_question_check">
-              <label class="question_container">
-                <input type="radio" name="q5" />
-                <span class="question_checkmark">5</span>
-              </label>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="submit-btn">
-        <input type="submit" value="Submit">
-      </div>
-    </form>
-  </div>
-  <script src="script.js"></script>
-</body>
-
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

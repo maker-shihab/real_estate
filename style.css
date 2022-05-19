@@ -83,12 +83,12 @@ a {
   color: #fff;
 }
 
-.question_container:hover input~.question_checkmark {
+.question_container:hover input ~ .question_checkmark {
   background-color: #202031;
   border-color: #a13065;
 }
 
-.question_container input:checked~.question_checkmark {
+.question_container input:checked ~ .question_checkmark {
   background-color: #202031;
   border-color: #a13065;
 }
@@ -99,7 +99,7 @@ a {
   display: none;
 }
 
-.question_container input:checked~.question_checkmark:after {
+.question_container input:checked ~ .question_checkmark:after {
   display: block;
 }
 
@@ -120,4 +120,16 @@ a {
   height: 30px;
   justify-content: space-between;
   padding: 20px 35px;
+}
+.submit-btn {
+  text-align: center;
+}
+input[type="submit"] {
+  border: none;
+  outline: none;
+  padding: 10px 40px;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #c53c7a;
+  cursor: pointer;
 }
